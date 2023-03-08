@@ -16,8 +16,8 @@ else if(score>49 && score<60){
 else if (score<49 && score>0){
     grade="E";
 }
-else(
-    grade="invalid"
-)
+else{
+    grade="invalid";
+}
 
 console.log("your grade is " + grade)
